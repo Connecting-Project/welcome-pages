@@ -16,7 +16,7 @@ function Header(props) {
               </span>
             </h1>
             <div className="buttons">
-              <a href="#projects">my portfolio</a>
+              <a href="#projects">Our portfolio</a>
               <a href="#contact" className="cta">
                 get in touch
               </a>
