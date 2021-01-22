@@ -845,6 +845,30 @@ a:active {
   padding-bottom: 1.5rem;
 }
 
+#about .subcontent {
+  font-size: 1.6rem;
+  color: inherit;
+  padding-bottom: 1.1rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #f300b4;
+
+}
+
+#about ul {
+  margin-left: 32px;
+  color: #666;
+  list-style:square;
+  padding: 0;
+  line-height: 1.9rem;
+  margin-bottom: 20px;
+}
+
+#about .urllogo {
+  width: 35px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 #about p {
   padding-bottom: 1.5rem;
   color: #555;
@@ -953,6 +977,7 @@ a:active {
   width: 70%;
   margin: 0 auto;
   text-align: justify;
+  line-height: initial;
 }
 
 /* Single Project */
