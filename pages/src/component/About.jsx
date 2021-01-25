@@ -67,23 +67,26 @@ function About(props) {
 
               <div className="desc full">
                 <h4 className="subtitle">제 이름은 이성원입니다.</h4>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>보이지 않는 곳에서 안정적인 서비스를 위해 노력하는 인프라 개발자입니다.</p>
+                <p>모든 IT 산업의 근간은 인프라스트럭처라고 생각합니다. 탄탄하고 안정적인 운영을 위해서는 무엇을 해야하는지 어떻게 구성해야 하는지에 대해 끊임없이 공부하고 탐구합니다.</p>
+                <p>한밭대학교 무선통신소프트웨어연구실(Wisoft Lab.)에서 석사과정을 마쳤으며, 모든 연구실의 인프라스트럭처 설계 및 운영을 담담하고 있습니다. 원할한 개발과 운영을 위해 Dev/Ops, Container Cluster, 모니터링, 자동화 시스템이 준비되어 있습니다. 
+                  앞으로 우리가 진행할 모든 프로젝트는 제가 설계한 인프라환경에서 동작할 것이며, 경우에 따라 하이브리드, 멀티클라우드 환경을 도입할 것입니다.</p>
+                <p>튼튼한 기반을 만들기 위해서 저혼자 모든것을 할 수 있다고 생각하지 않습니다. 같은 길을 걸어가고 있는 우리가 소통과 협력 그리고 타인의 배려가 제가 성장할 수 있는 방법이라고 생각합니다.</p>
                 <h4 className="subcontent">역할</h4> 
                 <ul> 
+                  <li>Application Dockerlize</li>
                   <li>CI/CD</li>
-                  <li>애플리케이션 Dockerlize</li>
-                  <li>애플리케이션 Dockerlize</li>
+                  <li>인프라스트럭처 설계 및 운영, 모니터링</li>
                 </ul>
 
                 <h4 className="subcontent">기술스택</h4> 
                 <ul> 
                   <li>golang</li> 
-                  <li>network</li> 
-                  <li>os</li> 
-                  <li>infrastructure</li> 
-                  <li>virtualization, container</li> 
-                  <li>cluster</li> 
+                  <li>Network</li> 
+                  <li>OS</li> 
+                  <li>Infrastructure</li> 
+                  <li>Virtualization, Container</li> 
+                  <li>Cluster System</li> 
                   <li>IaC (Infrastructure as a Code)</li> 
                   <li>Dev/Ops</li> 
                 </ul>
