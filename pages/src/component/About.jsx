@@ -44,7 +44,19 @@ function About(props) {
               <div className="desc full">
                 <h4 className="subtitle">제 이름은 김수현입니다.</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    새로운 도전을 좋아하는 백엔드 개발자입니다.
+                </p>
+
+                <p>
+                 새내기 시절 놀기 좋아하던 저의 관심을 처음으로 끈 전공 수업은 알고리즘이었습니다. 오로지 제가 직접 코딩한 논리로 새로운 것을 만드는 기분과 깨달은 원리를 코딩으로 실현하는 것에 재미를 느껴 해당 수업에서 1등을 할 정도로 흥미와 열정을 가지고 공부했습니다. 그 수업을 계기로 자신감을 얻어 웹개발과 Arduino를 공부하여 드론을 만들어보며 역량을 키웠습니다.
+                </p>
+                <p>
+                 저는 늘 새로운 기술에 도전했고 아두이노를 사용한 드론, 공공데이터를 활용한 웹사이트, 파이썬을 활용한 빅데이터 모임 장소 추천 시스템 등 의 프로젝트를 해왔습니다. 이렇게 다양한 분야에 걸쳐 많은 시도들을 해왔고 그것이 제 경쟁력이 되었습니다. 
+                </p>
+                <p>
+                 이렇게 여러 기술들에 대해 경험해 보았기에 새로운 기술에 대한 대처가 장점이지만 기존에 제가 가지고 있던 기술들에 대해 소홀하게 될 수 있습니다. 이러한 단점을 보완하기 위해 제가 가지고 있는 핵심 역량에 대하여 이전 프로젝트들을 다시 되새겨보고, 최근 이슈들을 찾아보며 저의 핵심역량을 강화하려 합니다.
+                </p>
+
                 <h4 className="subcontent">역할</h4> 
                 <ul> 
                   <li>Back-end</li>
