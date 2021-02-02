@@ -15,9 +15,9 @@ function Contact(props) {
                 <p className="subtitle">
                   Please, use the form below or send an email to {''}
                   <span className="mail">
-                    web
+                    dpfmxlfls95
                     <i className="fas fa-at at" />
-                    yagoestevez
+                    naver
                     <i className="fas fa-circle dot" />
                     com
                   </span>

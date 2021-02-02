@@ -1,5 +1,4 @@
 import React from 'react';
-import SocialLinks from './SocialLinks';
 
 function Menu(props) {
 
@@ -29,7 +28,6 @@ function Menu(props) {
                         </a>
                     </li>
                 </ul>
-                <SocialLinks />
             </div>
         </div>
     )
