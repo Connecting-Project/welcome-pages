@@ -1,4 +1,7 @@
 import React from 'react';
+import Springboot from '../assets/springboot.png';
+import Golang from '../assets/golang.png';
+import Mariadb from '../assets/mariadb.png';
 
 function Project(props) {
 
@@ -26,6 +29,9 @@ function Project(props) {
                 {props.tech.split(' ').map(t => (
                   <i className={tech[t]} key={t} />
                 ))}
+                <img className="iconimage" src={Springboot} alt="springboot"/>
+                <img className="iconimage" src={Golang} alt="golang"/>
+                <img className="iconimage" src={Mariadb} alt="mariadb"/>
               </p>
               {props.title}{' '}
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../component/Project';
-
+import Calculator from '../assets/calculator.JPG';
 function Projects(props) {
 
     return (
@@ -15,15 +15,15 @@ function Projects(props) {
             </div>
             <div className="projects-wrapper">
               <Project
-                title="프로젝트 제목"
-                img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Documentify.jpg'}
+                title="Calulator-Collection"
+                img={Calculator}
                 tech="js react css"
-                link=""
-                repo=""
+                link="https://calculator.hawaiian-pizza.ml/"
+                repo="https://github.com/Connecting-Project/calculator"
               >
-                <small>Built using React and CSS.</small>
+                <small>Built using React, Spring-Boot, MariaDB and Golang.</small>
                 <p>
-                  프로젝트 설명
+                  표준 계산기, 전역일 계산기, 경력 계산기, 연봉 계산기, 평수 계산기를 모아둔 페이지.
                 </p>
               </Project>
             </div>

@@ -1305,3 +1305,9 @@ footer .wrapper {
     padding-bottom: .8rem;
   }
 }
+
+.iconimage {
+  height: 24px;
+  vertical-align: bottom;
+  margin-right: 6px;
+}
