@@ -1,6 +1,8 @@
 import React from 'react';
 import Project from '../component/Project';
 import Calculator from '../assets/calculator.JPG';
+import Password from '../assets/password.JPG';
+
 function Projects(props) {
 
     return (
@@ -24,6 +26,18 @@ function Projects(props) {
                 <small>Built using React, Spring-Boot, MariaDB and Golang.</small>
                 <p>
                   표준 계산기, 전역일 계산기, 경력 계산기, 연봉 계산기, 평수 계산기를 모아둔 페이지.
+                </p>
+              </Project>
+              <Project
+                title="Password-Generator"
+                img={Password}
+                tech="js react css"
+                link="https://password.hawaiian-pizza.ml/"
+                repo="https://github.com/Connecting-Project/password"
+              >
+                <small>Built using React, Spring-Boot, MariaDB and Golang.</small>
+                <p>
+                  랜덤 패스워드를 생성해주는 페이지.
                 </p>
               </Project>
             </div>
