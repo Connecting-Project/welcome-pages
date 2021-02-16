@@ -9,7 +9,7 @@ RUN npm install
 RUN npm install -g serve
 
 COPY ./pages/ .
-
+RUN chmod -R 777 /usr/src/app
 RUN npm run build
 
 EXPOSE 5000
