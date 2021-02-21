@@ -26,8 +26,6 @@
 
 - Notion
 
-  - https://www.notion.so/jusk2/b29d7a5adc4b4b2cbd1747635c50ea1b
-
 - Slack
 
 - GitHub
@@ -52,7 +50,7 @@
 
 #### Deploy
 
-- Docker, **Jenkins**, **SonarQube** 
+- Docker, Jenkins, **SonarQube** 
 
 #### Database
 
