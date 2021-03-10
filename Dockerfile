@@ -3,7 +3,7 @@ LABEL seongwon="seongwon@edu.hanbat.ac.kr"
 
 WORKDIR /usr/src/app
 
-COPY ./pages/package*.json ./
+COPY ./package*.json ./
 
 RUN npm install
 RUN npm install -g serve
