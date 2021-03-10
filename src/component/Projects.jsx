@@ -2,6 +2,7 @@ import React from 'react';
 import Project from '../component/Project';
 import Calculator from '../assets/calculator.JPG';
 import Password from '../assets/password.JPG';
+import Login from '../assets/login.JPG';
 
 function Projects(props) {
 
@@ -21,7 +22,9 @@ function Projects(props) {
                 img={Calculator}
                 tech="js react css"
                 link="https://calculator.hawaiian-pizza.ml/"
-                repo="https://github.com/Connecting-Project/calculator"
+                api="https://github.com/Connecting-Project/calculator-api"
+                web="https://github.com/Connecting-Project/calculator-web"
+                tech_r="spring golang mariadb"
               >
                 <small>Built using React, Spring-Boot, MariaDB and Golang.</small>
                 <p>
@@ -33,11 +36,27 @@ function Projects(props) {
                 img={Password}
                 tech="js react css"
                 link="https://password.hawaiian-pizza.ml/"
-                repo="https://github.com/Connecting-Project/password"
+                api="https://github.com/Connecting-Project/password-api"
+                web="https://github.com/Connecting-Project/password-web"
+                tech_r="spring golang mariadb"
               >
                 <small>Built using React, Spring-Boot, MariaDB and Golang.</small>
                 <p>
                   랜덤 패스워드를 생성해주는 페이지.
+                </p>
+              </Project>
+              <Project
+                title="Login-Page"
+                img={Login}
+                tech="js react css jenkins"
+                link="https://login.hawaiian-pizza.ml/"
+                api="https://github.com/Connecting-Project/login-api"
+                web="https://github.com/Connecting-Project/login-web"
+                tech_r="spring mariadb"
+              >
+                <small>Built using React, Spring-Boot, MariaDB and Jenkins.</small>
+                <p>
+                  소셜 로그인, 로컬로그인을 할 수 있는 페이지.
                 </p>
               </Project>
             </div>

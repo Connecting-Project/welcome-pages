@@ -35,10 +35,10 @@ function About(props) {
 
                 <h4 className="subcontent">URL</h4> 
                 <p><img className="urllogo" src={githublogo} alt="github" />
-                <a href="https://github.com/Choyongwoo95" target="_blank">https://github.com/Choyongwoo95</a></p>
+                <a href="https://github.com/Choyongwoo95" target="_blank" rel="noopener noreferrer">https://github.com/Choyongwoo95</a></p>
                 
                 <p><img className="urllogo" src={tistorylogo} alt="tistory" />
-                <a href="https://mucus.tistory.com/" target="_blank">https://mucus.tistory.com/</a></p>
+                <a href="https://mucus.tistory.com/" target="_blank" rel="noopener noreferrer">https://mucus.tistory.com/</a></p>
               </div>
               
               <div className="desc full">
@@ -73,7 +73,7 @@ function About(props) {
 
                 <h4 className="subcontent">URL</h4> 
                 <p><img className="urllogo" src={githublogo} alt="github" />
-                <a href="https://github.com/dlem5133" target="_blank">https://github.com/dlem5133</a></p>
+                <a href="https://github.com/dlem5133" target="_blank" rel="noopener noreferrer">https://github.com/dlem5133</a></p>
                 
               </div>
 
@@ -105,10 +105,10 @@ function About(props) {
 
                 <h4 className="subcontent">URL</h4> 
                 <p><img className="urllogo" src={githublogo} alt="github" />
-                <a href="https://github.com/pandora0667" target="_blank">https://github.com/pandora0667</a></p>
+                <a href="https://github.com/pandora0667" target="_blank" rel="noopener noreferrer">https://github.com/pandora0667</a></p>
                 
                 <p><img className="urllogo" src={tistorylogo} alt="tistory" />
-                <a href="https://judo0179.tistory.com/" target="_blank">https://judo0179.tistory.com/</a></p>
+                <a href="https://judo0179.tistory.com/" target="_blank" rel="noopener noreferrer">https://judo0179.tistory.com/</a></p>
               </div>
             </article>
           </div>

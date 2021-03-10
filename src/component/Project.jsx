@@ -5,6 +5,8 @@ import Mariadb from '../assets/mariadb.png';
 
 function Project(props) {
 
+
+
     const tech = {
         sass: 'fab fa-sass',
         css: 'fab fa-css3-alt',
@@ -12,11 +14,13 @@ function Project(props) {
         react: 'fab fa-react',
         vue: 'fab fa-vuejs',
         d3: 'far fa-chart-bar',
-        node: 'fab fa-node'
+        node: 'fab fa-node',
+        jenkins: 'fab fa-jenkins'
       };
     
       const link = props.link || 'http://';
-      const repo = props.repo || 'http://';
+      const api = props.api || 'http://';
+      const web = props.web || 'http://';
     
       return (
         <div className="project">
@@ -29,16 +33,25 @@ function Project(props) {
                 {props.tech.split(' ').map(t => (
                   <i className={tech[t]} key={t} />
                 ))}
-                <img className="iconimage" src={Springboot} alt="springboot"/>
-                <img className="iconimage" src={Golang} alt="golang"/>
-                <img className="iconimage" src={Mariadb} alt="mariadb"/>
+                {props.tech_r.split(' ').map(tech =>{
+                  if(tech === "spring"){
+                    return <img className="iconimage" src={Springboot} alt="springboot" key={tech}/>
+                  }else if(tech === "golang"){
+                    return <img className="iconimage" src={Golang} alt="golang"  key={tech}/>
+                  }else if(tech === "mariadb"){
+                    return <img className="iconimage" src={Mariadb} alt="mariadb"  key={tech}/>
+                  }
+                })}
               </p>
               {props.title}{' '}
             </div>
             {props.children}
             <div className="buttons">
-              <a href={repo} target="_blank" rel="noopener noreferrer">
-                View source <i className="fas fa-external-link-alt" />
+              <a href={web} target="_blank" rel="noopener noreferrer">
+                Web source <i className="fas fa-external-link-alt" />
+              </a>
+              <a href={api} target="_blank" rel="noopener noreferrer">
+                Api source <i className="fas fa-external-link-alt" />
               </a>
               <a href={link} target="_blank" rel="noopener noreferrer">
                 Try it Live <i className="fas fa-external-link-alt" />
