@@ -3,6 +3,7 @@ import Project from '../component/Project';
 import Calculator from '../assets/calculator.JPG';
 import Password from '../assets/password.JPG';
 import Login from '../assets/login.JPG';
+import Inventory from '../assets/inventory.png';
 
 function Projects(props) {
 
@@ -20,7 +21,7 @@ function Projects(props) {
               <Project
                 title="Calulator-Collection"
                 img={Calculator}
-                tech="js react css"
+                tech="js react css docker"
                 link="https://calculator.hawaiian-pizza.ml/"
                 api="https://github.com/Connecting-Project/calculator-api"
                 web="https://github.com/Connecting-Project/calculator-web"
@@ -34,7 +35,7 @@ function Projects(props) {
               <Project
                 title="Password-Generator"
                 img={Password}
-                tech="js react css"
+                tech="js react css docker"
                 link="https://password.hawaiian-pizza.ml/"
                 api="https://github.com/Connecting-Project/password-api"
                 web="https://github.com/Connecting-Project/password-web"
@@ -48,7 +49,7 @@ function Projects(props) {
               <Project
                 title="Login-Page"
                 img={Login}
-                tech="js react css jenkins"
+                tech="js react css jenkins docker"
                 link="https://login.hawaiian-pizza.ml/"
                 api="https://github.com/Connecting-Project/login-api"
                 web="https://github.com/Connecting-Project/login-web"
@@ -57,6 +58,20 @@ function Projects(props) {
                 <small>Built using React, Spring-Boot, MariaDB and Jenkins.</small>
                 <p>
                   소셜 로그인, 로컬로그인을 할 수 있는 페이지.
+                </p>
+              </Project>
+              <Project
+                title="Inventory-Management"
+                img={Inventory}
+                tech="js react css jenkins docker"
+                link="https://inventory.hawaiian-pizza.ml/"
+                api="https://github.com/Connecting-Project/inventory-api"
+                web="https://github.com/Connecting-Project/inventory-web"
+                tech_r="spring mariadb"
+              >
+                <small>Built using React, Spring-Boot, MariaDB and Jenkins.</small>
+                <p>
+                  재고를 관리하는 관리자, 재고를 대여하고 반납하는 사용자 페이지.
                 </p>
               </Project>
             </div>

@@ -15,7 +15,8 @@ function Project(props) {
         vue: 'fab fa-vuejs',
         d3: 'far fa-chart-bar',
         node: 'fab fa-node',
-        jenkins: 'fab fa-jenkins'
+        jenkins: 'fab fa-jenkins',
+        docker: 'fab fa-docker',
       };
     
       const link = props.link || 'http://';
