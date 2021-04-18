@@ -13,6 +13,7 @@ function Nav(props) {
           <a
             onClick={props.toggleMenu}
             className={props.showMenu === 'active' ? 'menu-button active' : 'menu-button'}
+            href={() => false}
           >
             <span />
           </a>

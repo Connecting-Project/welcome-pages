@@ -41,6 +41,8 @@ function Project(props) {
                     return <img className="iconimage" src={Golang} alt="golang"  key={tech}/>
                   }else if(tech === "mariadb"){
                     return <img className="iconimage" src={Mariadb} alt="mariadb"  key={tech}/>
+                  }else{
+                    return null;
                   }
                 })}
               </p>
