@@ -22,7 +22,7 @@ function Projects(props) {
                 title="Calulator-Collection"
                 img={Calculator}
                 tech="js react css docker"
-                link="https://calculator.hawaiian-pizza.ml/"
+                link="https://calculator.hawaiian-pizza.space/"
                 api="https://github.com/Connecting-Project/calculator-api"
                 web="https://github.com/Connecting-Project/calculator-web"
                 tech_r="spring golang mariadb"
@@ -36,7 +36,7 @@ function Projects(props) {
                 title="Password-Generator"
                 img={Password}
                 tech="js react css docker"
-                link="https://password.hawaiian-pizza.ml/"
+                link="https://password.hawaiian-pizza.space/"
                 api="https://github.com/Connecting-Project/password-api"
                 web="https://github.com/Connecting-Project/password-web"
                 tech_r="spring golang mariadb"
@@ -50,7 +50,7 @@ function Projects(props) {
                 title="Login-Page"
                 img={Login}
                 tech="js react css jenkins docker"
-                link="https://login.hawaiian-pizza.ml/"
+                link="https://login.hawaiian-pizza.space/"
                 api="https://github.com/Connecting-Project/login-api"
                 web="https://github.com/Connecting-Project/login-web"
                 tech_r="spring mariadb"
@@ -64,7 +64,7 @@ function Projects(props) {
                 title="Inventory-Management"
                 img={Inventory}
                 tech="js react css jenkins docker"
-                link="https://inventory.hawaiian-pizza.ml/"
+                link="https://inventory.hawaiian-pizza.space/"
                 api="https://github.com/Connecting-Project/inventory-api"
                 web="https://github.com/Connecting-Project/inventory-web"
                 tech_r="spring mariadb"
