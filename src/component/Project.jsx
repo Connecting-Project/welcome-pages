@@ -2,6 +2,7 @@ import React from 'react';
 import Springboot from '../assets/springboot.png';
 import Golang from '../assets/golang.png';
 import Mariadb from '../assets/mariadb.png';
+import Webrtc from '../assets/webrtc-logo.png';
 
 function Project(props) {
 
@@ -17,6 +18,7 @@ function Project(props) {
         node: 'fab fa-node',
         jenkins: 'fab fa-jenkins',
         docker: 'fab fa-docker',
+        
       };
     
       const link = props.link || 'http://';
@@ -41,6 +43,8 @@ function Project(props) {
                     return <img className="iconimage" src={Golang} alt="golang"  key={tech}/>
                   }else if(tech === "mariadb"){
                     return <img className="iconimage" src={Mariadb} alt="mariadb"  key={tech}/>
+                  }else if(tech === "webrtc"){
+                    return <img className="iconimage" src={Webrtc} alt="webrtc"  key={tech}/>
                   }else{
                     return null;
                   }
