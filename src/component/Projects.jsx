@@ -4,6 +4,7 @@ import Calculator from '../assets/calculator.JPG';
 import Password from '../assets/password.JPG';
 import Login from '../assets/login.JPG';
 import Inventory from '../assets/inventory.png';
+import Meeting from '../assets/meeting.PNG';
 
 function Projects(props) {
 
@@ -19,7 +20,7 @@ function Projects(props) {
             </div>
             <div className="projects-wrapper">
               <Project
-                title="Calulator-Collection"
+                title="Calculator-Collection"
                 img={Calculator}
                 tech="js react css docker"
                 link="https://calculator.hawaiian-pizza.space/"
@@ -72,6 +73,21 @@ function Projects(props) {
                 <small>Built using React, Spring-Boot, MariaDB and Jenkins.</small>
                 <p>
                   재고를 관리하는 관리자, 재고를 대여하고 반납하는 사용자 페이지.
+                </p>
+              </Project>
+
+              <Project
+                title="meeting"
+                img={Meeting}
+                tech="js node css jenkins docker"
+                link="https://meet.hawaiian-pizza.space/"
+                api="https://github.com/Connecting-Project/meet"
+                web="https://github.com/Connecting-Project/meet"
+                tech_r="webrtc"
+              >
+                <small>Built using Javascript, Node, Web-Rtc, docker and Jenkins.</small>
+                <p>
+                  WEB-RTC 기반 화상회의 페이지
                 </p>
               </Project>
             </div>
