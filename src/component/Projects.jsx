@@ -5,7 +5,7 @@ import Password from '../assets/password.JPG';
 import Login from '../assets/login.JPG';
 import Inventory from '../assets/inventory.png';
 import Meeting from '../assets/meeting.PNG';
-
+import Random from '../assets/random-box.png';
 function Projects(props) {
 
     return (
@@ -19,6 +19,20 @@ function Projects(props) {
               </p>
             </div>
             <div className="projects-wrapper">
+            <Project
+                title="Random-Box"
+                img={Random}
+                tech="js react css jenkins docker"
+                link="https://rdbox.hawaiian-pizza.space/"
+                api="https://github.com/Connecting-Project/rdbox"
+                web="https://github.com/Connecting-Project/rdbox"
+                tech_r="spring mariadb"
+              >
+                <small>Built using React, Spring-Boot, MariaDB, Kakao-api and Jenkins.</small>
+                <p>
+                  게임 프롤로 러쉬 이벤트 사이트, 랜덤으로 상품 추첨하여 수령하는 사이트.
+                </p>
+              </Project>
               <Project
                 title="Calculator-Collection"
                 img={Calculator}
