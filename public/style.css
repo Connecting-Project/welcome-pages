@@ -892,9 +892,9 @@ a:active {
     grid-template-columns: 1fr;
     grid-gap: 0;
   }
-  #about .desc.full {
+  /* #about .desc.full {
     grid-column-end: -1;
-  }
+  } */
 
   #about .desc {
     grid-column-end: -1;
@@ -910,7 +910,55 @@ a:active {
 }
 @media only screen and (max-width: 649px) {
   #about .wrapper {
-    padding: 10rem 2rem 8rem;
+    padding: 10rem 0rem 8rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+  }
+
+  #about .subtitle {
+    font-size: 1.2rem;
+  }
+
+  #about a {
+    font-size: 1rem;
+  }
+
+  #about .title {
+    padding: 0 2rem;
+  }
+
+  #navbar .brand {
+    font-size: 1.2rem;
+  }
+  #about .subcontent {
+    font-size: 1.2rem;
+  }
+
+  #about li {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #projects .heading .subtitle {
+    font-size: 1.2rem !important;
+  }
+
+  #projects .project-details p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .heading-wrapper .heading .title {
+    font-size: 2rem !important;
+  }
+  .heading-wrapper .heading .subtitle {
+    font-size: 1.2rem !important;
+  }
+
+  input[type="text"], input[type="email"], input[type="text"]:not(output):not(:focus), input[type="email"]:not(output):not(:focus), textarea {
+    font-size: 1rem !important;
   }
 }
 
@@ -1182,6 +1230,9 @@ input, textarea {
   width: 100%;
   height: 40%;
   transition: 200ms;
+}
+textarea {
+  resize: vertical;
 }
 
 input[type="text"],
